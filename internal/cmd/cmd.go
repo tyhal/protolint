@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds/lint"
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds/list"
-	"github.com/yoheimuta/protolint/internal/osutil"
+	"github.com/tyhal/protolint/internal/cmd/subcmds/lint"
+	"github.com/tyhal/protolint/internal/cmd/subcmds/list"
+	"github.com/tyhal/protolint/internal/osutil"
 )
 
 const (

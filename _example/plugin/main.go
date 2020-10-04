@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/yoheimuta/protolint/_example/plugin/customrules"
-	"github.com/yoheimuta/protolint/internal/addon/rules"
-	"github.com/yoheimuta/protolint/linter/rule"
-	"github.com/yoheimuta/protolint/plugin"
+	"github.com/tyhal/protolint/_example/plugin/customrules"
+	"github.com/tyhal/protolint/internal/addon/rules"
+	"github.com/tyhal/protolint/linter/rule"
+	"github.com/tyhal/protolint/plugin"
 )
 
 func main() {

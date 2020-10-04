@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/yoheimuta/protolint/internal/linter/config"
+	"github.com/tyhal/protolint/internal/linter/config"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds"
-	"github.com/yoheimuta/protolint/internal/osutil"
-	"github.com/yoheimuta/protolint/linter/rule"
+	"github.com/tyhal/protolint/internal/cmd/subcmds"
+	"github.com/tyhal/protolint/internal/osutil"
+	"github.com/tyhal/protolint/linter/rule"
 )
 
 // CmdList is a rule list command.

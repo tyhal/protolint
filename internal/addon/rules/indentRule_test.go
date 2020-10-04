@@ -6,16 +6,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yoheimuta/protolint/internal/osutil"
+	"github.com/tyhal/protolint/internal/osutil"
 
 	"github.com/yoheimuta/go-protoparser/v4/parser/meta"
 
-	"github.com/yoheimuta/protolint/internal/linter/file"
+	"github.com/tyhal/protolint/internal/linter/file"
 
-	"github.com/yoheimuta/protolint/internal/setting_test"
+	"github.com/tyhal/protolint/internal/setting_test"
 
-	"github.com/yoheimuta/protolint/internal/addon/rules"
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/internal/addon/rules"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 func TestIndentRule_Apply(t *testing.T) {
@@ -144,12 +144,12 @@ func TestIndentRule_Apply(t *testing.T) {
 			},
 		},
 		{
-			name:           "handle the proto containing extend. Fix https://github.com/yoheimuta/protolint/issues/63",
+			name:           "handle the proto containing extend. Fix https://github.com/tyhal/protolint/issues/63",
 			inputProtoPath: setting_test.TestDataPath("rules", "indentrule", "issue_63.proto"),
 		},
 		{
 			name: `handle the case that the last rpc method of a service is having a statement block.
-Fix https://github.com/yoheimuta/protolint/issues/74`,
+Fix https://github.com/tyhal/protolint/issues/74`,
 			inputProtoPath: setting_test.TestDataPath("rules", "indentrule", "issue_74.proto"),
 		},
 	}

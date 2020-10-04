@@ -3,8 +3,8 @@ package config_test
 import (
 	"testing"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds"
-	"github.com/yoheimuta/protolint/internal/linter/config"
+	"github.com/tyhal/protolint/internal/cmd/subcmds"
+	"github.com/tyhal/protolint/internal/linter/config"
 )
 
 func TestExternalConfig_ShouldSkipRule(t *testing.T) {

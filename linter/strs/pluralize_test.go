@@ -3,7 +3,7 @@ package strs_test
 import (
 	"testing"
 
-	"github.com/yoheimuta/protolint/linter/strs"
+	"github.com/tyhal/protolint/linter/strs"
 )
 
 func TestPluralizeClient_ToPlural(t *testing.T) {

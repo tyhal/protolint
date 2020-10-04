@@ -6,12 +6,12 @@ import (
 
 	"github.com/yoheimuta/go-protoparser/v4/parser/meta"
 
-	"github.com/yoheimuta/protolint/internal/setting_test"
+	"github.com/tyhal/protolint/internal/setting_test"
 
-	"github.com/yoheimuta/protolint/internal/linter/file"
+	"github.com/tyhal/protolint/internal/linter/file"
 
-	"github.com/yoheimuta/protolint/internal/addon/rules"
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/internal/addon/rules"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 func testImportSortedProtoPath(name string) string {

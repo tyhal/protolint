@@ -5,9 +5,9 @@ import (
 
 	"github.com/yoheimuta/go-protoparser/v4/parser"
 
-	"github.com/yoheimuta/protolint/linter/report"
-	"github.com/yoheimuta/protolint/linter/strs"
-	"github.com/yoheimuta/protolint/linter/visitor"
+	"github.com/tyhal/protolint/linter/report"
+	"github.com/tyhal/protolint/linter/strs"
+	"github.com/tyhal/protolint/linter/visitor"
 )
 
 // PackageNameLowerCaseRule verifies that the package name only contains lowercase letters, digits and/or periods.

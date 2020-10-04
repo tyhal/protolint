@@ -1,4 +1,4 @@
-module github.com/yoheimuta/protolint
+module github.com/tyhal/protolint
 
 require (
 	github.com/gertd/go-pluralize v0.1.1

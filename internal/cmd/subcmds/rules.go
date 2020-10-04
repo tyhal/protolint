@@ -1,11 +1,11 @@
 package subcmds
 
 import (
-	"github.com/yoheimuta/protolint/internal/addon/plugin"
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
-	"github.com/yoheimuta/protolint/internal/addon/rules"
-	"github.com/yoheimuta/protolint/internal/linter/config"
-	internalrule "github.com/yoheimuta/protolint/internal/linter/rule"
+	"github.com/tyhal/protolint/internal/addon/plugin"
+	"github.com/tyhal/protolint/internal/addon/plugin/shared"
+	"github.com/tyhal/protolint/internal/addon/rules"
+	"github.com/tyhal/protolint/internal/linter/config"
+	internalrule "github.com/tyhal/protolint/internal/linter/rule"
 )
 
 // NewAllRules creates new all rules.

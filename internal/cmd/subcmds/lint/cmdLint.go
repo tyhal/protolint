@@ -5,12 +5,12 @@ import (
 	"io"
 	"os"
 
-	"github.com/yoheimuta/protolint/internal/linter/config"
+	"github.com/tyhal/protolint/internal/linter/config"
 
-	"github.com/yoheimuta/protolint/internal/linter"
-	"github.com/yoheimuta/protolint/internal/linter/file"
-	"github.com/yoheimuta/protolint/internal/osutil"
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/internal/linter"
+	"github.com/tyhal/protolint/internal/linter/file"
+	"github.com/tyhal/protolint/internal/osutil"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 // CmdLint is a lint command.

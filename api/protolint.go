@@ -2,7 +2,7 @@ package api
 
 import (
 	"errors"
-	"github.com/yoheimuta/protolint/internal/cmd"
+	"github.com/tyhal/protolint/internal/cmd"
 	"io"
 	"strconv"
 )

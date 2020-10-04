@@ -3,7 +3,7 @@ package report
 import (
 	"io"
 
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 // Reporter is responsible to output results in the specific format.

@@ -5,9 +5,9 @@ import (
 
 	"github.com/yoheimuta/go-protoparser/v4/parser"
 
-	"github.com/yoheimuta/protolint/internal/osutil"
-	"github.com/yoheimuta/protolint/linter/report"
-	"github.com/yoheimuta/protolint/linter/visitor"
+	"github.com/tyhal/protolint/internal/osutil"
+	"github.com/tyhal/protolint/linter/report"
+	"github.com/tyhal/protolint/linter/visitor"
 )
 
 // ImportsSortedRule enforces sorted imports.

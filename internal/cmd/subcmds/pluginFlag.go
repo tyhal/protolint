@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
+	"github.com/tyhal/protolint/internal/addon/plugin/shared"
 
 	"github.com/hashicorp/go-plugin"
 )

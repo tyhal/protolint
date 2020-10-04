@@ -3,8 +3,8 @@ package lint
 import (
 	"fmt"
 
-	"github.com/yoheimuta/protolint/internal/linter/report"
-	"github.com/yoheimuta/protolint/internal/linter/report/reporters"
+	"github.com/tyhal/protolint/internal/linter/report"
+	"github.com/tyhal/protolint/internal/linter/report/reporters"
 )
 
 type reporterFlag struct {

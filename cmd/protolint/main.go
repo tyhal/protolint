@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/yoheimuta/protolint/internal/cmd"
+	"github.com/tyhal/protolint/internal/cmd"
 )
 
 func main() {

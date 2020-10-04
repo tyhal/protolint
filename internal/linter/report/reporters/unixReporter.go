@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 // UnixReporter prints failures as it respects Unix output conventions

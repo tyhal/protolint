@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 // JSONReporter prints failures as a single JSON struct, allowing

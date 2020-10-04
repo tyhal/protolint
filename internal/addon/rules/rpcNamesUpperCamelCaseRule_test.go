@@ -7,8 +7,8 @@ import (
 	"github.com/yoheimuta/go-protoparser/v4/parser"
 	"github.com/yoheimuta/go-protoparser/v4/parser/meta"
 
-	"github.com/yoheimuta/protolint/internal/addon/rules"
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/internal/addon/rules"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 func TestRPCNamesUpperCamelCaseRule_Apply(t *testing.T) {

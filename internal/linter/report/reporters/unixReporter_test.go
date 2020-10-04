@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yoheimuta/protolint/internal/linter/report/reporters"
+	"github.com/tyhal/protolint/internal/linter/report/reporters"
 
 	"github.com/yoheimuta/go-protoparser/v4/parser/meta"
 
-	"github.com/yoheimuta/protolint/linter/report"
+	"github.com/tyhal/protolint/linter/report"
 )
 
 func TestUnixReporter_Report(t *testing.T) {

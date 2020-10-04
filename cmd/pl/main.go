@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/yoheimuta/protolint/internal/cmd"
+	"github.com/tyhal/protolint/internal/cmd"
 )
 
-// DEPRECATED: Use cmd/protolint. See https://github.com/yoheimuta/protolint/issues/20.
+// DEPRECATED: Use cmd/protolint. See https://github.com/tyhal/protolint/issues/20.
 func main() {
 	os.Exit(int(
 		cmd.Do(

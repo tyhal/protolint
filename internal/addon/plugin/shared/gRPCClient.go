@@ -3,7 +3,7 @@ package shared
 import (
 	"context"
 
-	"github.com/yoheimuta/protolint/internal/addon/plugin/proto"
+	"github.com/tyhal/protolint/internal/addon/plugin/proto"
 )
 
 // GRPCClient is the implementation of RuleSet.
